@@ -11,6 +11,9 @@ static const Block blocks[] = {
 
 	{"", "ip route get 1 | awk '{print $(NF-2);exit}'",		1200,		12},
 
+	{"", "~/.local/bin/statusbar/internet",				5,		4},
+
+
 	/*{"", "~/.local/bin/statusbar/capture",				0,		2},*/
 
 	{"", "~/.local/bin/statusbar/volume",				0,		10},
